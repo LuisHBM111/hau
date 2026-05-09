@@ -89,12 +89,13 @@ export default function Page() {
                 M&Uacute;SICO | INGENIERO DE AUDIO | T&Eacute;CNICO DE STAGE
               </p>
               <p className="pitch">
-                Soy percusionista e ingeniero de audio. Ofrezco un servicio
-                completo: desde tocar en tu proyecto, hasta mezclarlo,
-                masterizarlo y hacer el stage en vivo. He trabajado en el sonido
-                del Deportivo Cali, el Mercado Musical del Pac&iacute;fico,
-                entre otros. Mi compromiso es total, desde el montaje hasta el
-                &uacute;ltimo detalle.
+                M&uacute;sico e ingeniero de audio con base en Cali, Colombia,
+                enfocado en integrar la interpretaci&oacute;n musical con la
+                excelencia t&eacute;cnica en producci&oacute;n de audio. Mi
+                enfoque combina la sensibilidad art&iacute;stica con la
+                precisi&oacute;n t&eacute;cnica del ingeniero, ofreciendo
+                soluciones integrales para proyectos musicales de cualquier
+                envergadura.
               </p>
               <div className="cta-buttons">
                 <a className="btn btn-primary" href="#contacto">
@@ -153,7 +154,6 @@ export default function Page() {
               <ul>
                 <li>FOH (Front of House)</li>
                 <li>Monitores de escenario</li>
-                <li>Stage Management</li>
                 <li>Montaje y desmontaje</li>
               </ul>
             </div>
@@ -200,7 +200,7 @@ export default function Page() {
 
             <div className="timeline-item">
               <h3>Sevijazz</h3>
-              <p className="location">T&eacute;cnico de Stage</p>
+              <p className="location">Stage</p>
               <p>
                 Soporte t&eacute;cnico y operaci&oacute;n de escenario en
                 festival de jazz, trabajando con artistas nacionales e
@@ -210,9 +210,7 @@ export default function Page() {
 
             <div className="timeline-item">
               <h3>Universidad Icesi</h3>
-              <p className="location">
-                Estudiante &amp; T&eacute;cnico de Audio
-              </p>
+              <p className="location">Estudiante &amp; Ing Audio</p>
               <p>
                 FOH e ingenier&iacute;a de sonido en eventos universitarios.
                 Formaci&oacute;n continua en producci&oacute;n de audio y
@@ -286,7 +284,7 @@ export default function Page() {
         <section id="galeria">
           <h2 className="section-title">GALER&Iacute;A</h2>
           <p className="section-subtitle">
-            {"// Momentos en vivo, stage y producci\u00f3n"}
+            {"// Eventos en vivo, stage y producci\u00f3n"}
           </p>
 
           <div className="gallery-grid">
