@@ -3,8 +3,14 @@
 import Image from "next/image";
 import { useEffect } from "react";
 
-const galleryImage =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJPR8OObuf55aprd0xgmZqKd5SZ6vCHh6g7w&s";
+const galleryImages = [
+  "https://i.pinimg.com/736x/70/93/63/709363ce2bcd68260a5b524833bff627.jpg",
+  "https://i.pinimg.com/736x/e1/3a/d6/e13ad6b795e4608853b742388d075b51.jpg",
+  "https://i.pinimg.com/736x/64/96/d9/6496d95060953832b0d8d0bc30a97634.jpg",
+  "https://i.pinimg.com/736x/50/24/67/50246761e1d9b3c2775deaf4e629e088.jpg",
+  "https://i.pinimg.com/736x/aa/2d/df/aa2ddf28f5791a97abcc98eb146338d0.jpg",
+  "https://i.pinimg.com/736x/a5/b6/05/a5b605458a4730c61d28c0c9b9d6cb35.jpg",
+];
 
 const bars = Array.from({ length: 10 }, (_, index) => index);
 
@@ -289,7 +295,7 @@ export default function Page() {
                 alt="Audio en vivo"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                src={galleryImage}
+                src={galleryImages[0]}
               />
               <div className="gallery-info">
                 <h3>Audio en vivo</h3>
@@ -302,7 +308,7 @@ export default function Page() {
                 alt="Escenario musical"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                src={galleryImage}
+                src={galleryImages[1]}
               />
               <div className="gallery-info">
                 <h3>Escenario</h3>
@@ -315,7 +321,7 @@ export default function Page() {
                 alt="Consola de sonido"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                src={galleryImage}
+                src={galleryImages[2]}
               />
               <div className="gallery-info">
                 <h3>Consolas</h3>
@@ -328,7 +334,7 @@ export default function Page() {
                 alt="Percusion en vivo"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                src={galleryImage}
+                src={galleryImages[3]}
               />
               <div className="gallery-info">
                 <h3>Percusi&oacute;n</h3>
@@ -341,7 +347,7 @@ export default function Page() {
                 alt="Montaje tecnico"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                src={galleryImage}
+                src={galleryImages[4]}
               />
               <div className="gallery-info">
                 <h3>Montaje</h3>
@@ -354,7 +360,7 @@ export default function Page() {
                 alt="Produccion musical"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                src={galleryImage}
+                src={galleryImages[5]}
               />
               <div className="gallery-info">
                 <h3>Producci&oacute;n</h3>
